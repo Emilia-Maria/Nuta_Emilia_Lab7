@@ -64,6 +64,7 @@ namespace Nuta_Emilia_Lab7.Data
         {
             return _database.DeleteAsync(slist);
         }
+        // CRUD for product in a list
         public Task<int> SaveListProductAsync(ListProduct listp)
         {
             if (listp.ID != 0)
